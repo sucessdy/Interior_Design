@@ -107,24 +107,9 @@ const Navbar = ({ navbarRef, logoRef, logoClass }) => {
                   <Link href="/work2">
                     <a className="dropdown-item">Three Column</a>
                   </Link>
-                  <Link href="/work3">
-                    <a className="dropdown-item">Four Column</a>
-                  </Link>
-                  <Link href="/project-details">
-                    <a className="dropdown-item">Single Project</a>
-                  </Link>
+                 
 
-                  {/* <a className="dropdown-item">Two Column</a>
-                  </Link>
-                  <Link href="/work2">
-                    <a className="dropdown-item">Three Column</a>
-                  </Link>
-                  <Link href="/work3">
-                    <a className="dropdown-item">Four Column</a>
-                  </Link>
-                  <Link href="/project-details">
-                    <a className="dropdown-item">Single Project</a>
-                  </Link> */}
+                  
                 </div>
               </li>
               <li className="nav-item dropdown" onClick={handleDropdown}>

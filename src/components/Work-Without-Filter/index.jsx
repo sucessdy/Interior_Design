@@ -19,20 +19,7 @@ const WorkWithoutFilter = ({ vis }) => {
                 <h3>Works.</h3>
               </div>
             </div>
-            {/* <div className="col-md-6 items">
-              <div className="item">
-                <div className="img">
-                  <img src="demos/h.png" alt="img" />
-                </div>
-                <div className={`cont ${vis ? "vis" : ""}`}>
-                  <span>Architecture</span>
-                  <span>Modern</span>
-                  <h5>
-                    <Link href="/project-details">Modern Townhouse</Link>
-                  </h5>
-                </div>
-              </div>
-            </div> */}
+            
             <div className="col-md-6 items">
               <div className="item">
                 <div className="img">
